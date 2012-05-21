@@ -889,9 +889,9 @@
 
 				//center fix
 				var margin_left = (totalWidth - images.eq(arg).width()) / 2;
-				var margin_top = (totalHeight - images.eq(arg).height()) / 2;
+				//var margin_top = (totalHeight - images.eq(arg).height()) / 2;
 				imgCon.children().eq(arg).css('margin-left', margin_left);
-				imgCon.children().eq(arg).css('margin-top', margin_top);
+				//imgCon.children().eq(arg).css('margin-top', margin_top);
 				
 					
 				if(currNr>=0) {
